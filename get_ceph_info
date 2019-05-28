@@ -1,3 +1,4 @@
+#!/bin/bash
 #get ceph info
 ceph_node_info=$(ceph node ls all -f json)
 #timestamp for elasticsearch
